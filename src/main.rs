@@ -1,5 +1,7 @@
-mod printing;
+//mod printing;
+mod variables;
 
 fn main() {
-    printing::run();
+    //printing::run();
+    variables::run();
 }
