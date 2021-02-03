@@ -19,7 +19,7 @@ pub fn run() {
 
     let z: i64 = 128371623; // tipo declarando explicitamente
 
-    let printar_numericos: bool = false;
+    let printar_numericos: bool = true;
 
     let maior_que = 10 > 5;
 
@@ -35,7 +35,7 @@ pub fn run() {
 }
 
 fn print_numeric_types_min_max() {
-    println!("--------------- TAMANHOS NUMÉRICOS ------------------");
+    println!("--------------- TAMANHOS NUMÉRICOS ------------------ \n");
 
     println!("u8 MIN: {}, u8 MAX: {}", std::u8::MIN, std::u8::MAX);
     println!("i8 MIN: {}, i8 MAX: {}", std::i8::MIN, std::i8::MAX);
