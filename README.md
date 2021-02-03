@@ -6,11 +6,15 @@ Repo criado com o objetivo de aprender Rust
 
 Para executar os fontes localmente é necessário instalar Rust na máquina com o seguinte comando
 
-```$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+```
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
 Clonar o projeto
 
-```$ git clone https://github.com/FaveroFerreira/rustlang.git```
+```
+$ git clone https://github.com/FaveroFerreira/rustlang.git
+```
 
 Alterar o mod no arquivo main.rs
 
@@ -24,4 +28,6 @@ fn main() {
 
 Executar com o comando
 
-```$ cargo run```
+```
+$ cargo run
+```
