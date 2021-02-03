@@ -27,7 +27,7 @@ pub fn run() {
 
     let emoji: char = '\u{1F600}'; // emojis são chars, em unicode
 
-    println!("{:?}", (x, y, z, printar_numericos, maior_que, chr, emoji));
+    println!("Variáveis criadas {:?}", (x, y, z, printar_numericos, maior_que, chr, emoji));
 
     if printar_numericos {
         print_numeric_types_min_max();
@@ -35,7 +35,7 @@ pub fn run() {
 }
 
 fn print_numeric_types_min_max() {
-    println!("--------------- TAMANHOS NUMÉRICOS ------------------ \n");
+    println!("\n --------------- TAMANHOS NUMÉRICOS ------------------ \n");
 
     println!("u8 MIN: {}, u8 MAX: {}", std::u8::MIN, std::u8::MAX);
     println!("i8 MIN: {}, i8 MAX: {}", std::i8::MIN, std::i8::MAX);
